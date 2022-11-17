@@ -185,7 +185,7 @@ function updateGrid() {
 
 function drawBox(container, row, col, letter = '') {
     const box = document.createElement('div');
-    box.classname = 'box';
+    box.className = 'box';
     box.id = `box${row}${col}`;
     box.textContent = letter;
     container.appendChild(box);
